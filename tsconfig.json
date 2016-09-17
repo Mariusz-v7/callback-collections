@@ -14,12 +14,13 @@
         "outDir": "dist",
         "baseUrl": ".",
         "paths": {
-            "MruGames/Utils/*": [ "src/main/js/*" ]
+            "mrugames-element-add-remove-manager": [ "src/main/index" ]
         }
     },
     "exclude": [
         "node_modules",
         ".git",
-        "resources"
+        "resources",
+        "index.ts"
     ]
 }

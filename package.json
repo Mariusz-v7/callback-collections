@@ -1,5 +1,5 @@
 {
-  "name": "mrugames-utils-element-add-remove-manager",
+  "name": "mrugames-element-add-remove-manager",
   "version": "1.0.0",
   "description": "Manager which stores elements under auto-incremented index and calls the destroy method when removing them.",
   "main": "index.js",

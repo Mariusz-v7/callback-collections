@@ -1,4 +1,4 @@
-import {ElementAddRemoveManager} from 'MruGames/Utils/ElementAddRemoveManager';
+import {ElementAddRemoveManager} from 'mrugames-element-add-remove-manager';
 
 describe('ElementAddRemoveManager - adding new elements', () => {
     let manager:ElementAddRemoveManager<string>;
