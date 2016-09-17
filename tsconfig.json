@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "system",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "rootDir": "src",
+        "suppressImplicitAnyIndexErrors": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "MruGames/Utils/*": [ "src/main/js/*" ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        ".git",
+        "resources"
+    ]
+}
