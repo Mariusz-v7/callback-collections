@@ -11,8 +11,6 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: 'node_modules/lodash/**/*.js  ',              included: false, watched: false},
-
       {pattern: 'src/main/index.ts'},
       {pattern: 'src/main/js/*.ts',                           included: false},
 

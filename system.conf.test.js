@@ -5,8 +5,6 @@ System.config({
         'typescript':               'node_modules/typescript/lib/typescript.js',
         'systemjs':                 'node_modules/systemjs/dist/system.js',
         'system-polyfills':         'node_modules/systemjs/dist/system-polyfills.js',
-
-        'lodash':                   'node_modules/lodash/lodash.js',
     },
     map: {
         'callback-collections':     'src/main'

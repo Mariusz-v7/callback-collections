@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 export class Collection<T> {
     private elements: { [id:number] : T } = {};
     private id = 0;
@@ -15,6 +13,6 @@ export class Collection<T> {
     }
 
     public remove(id:number) {
-        _.unset(this.elements, id);
+        delete this.elements[id];
     }
 }
