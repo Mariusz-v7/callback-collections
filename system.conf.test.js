@@ -9,21 +9,21 @@ System.config({
         'lodash':                   'node_modules/lodash/lodash.js',
     },
     map: {
-        'MruGames/Utils':           'src/main/js'
+        'callback-collections':     'src/main'
     },
     packages: {
         'src/test': {
             defaultExtension: 'ts'
         },
-        'MruGames/Utils': {
-            defaultExtension: 'ts'
+        'callback-collections': {
+            defaultExtension: 'ts', main: 'index.ts'
         },
         'node_modules': {
             defaultExtension: 'js'
         }
     },
     meta: {
-        'MruGames/Utils/*': {
+        'callback-collections/*': {
             format: 'esm'
         }
     },

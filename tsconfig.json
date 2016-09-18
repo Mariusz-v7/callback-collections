@@ -14,7 +14,7 @@
         "outDir": "dist",
         "baseUrl": ".",
         "paths": {
-            "mrugames-element-add-remove-manager": [ "src/main/index" ]
+            "callback-collections": [ "src/main/index" ]
         }
     },
     "exclude": [

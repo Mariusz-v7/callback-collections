@@ -1,7 +1,7 @@
 {
-  "name": "mrugames-element-add-remove-manager",
+  "name": "callback-collections",
   "version": "1.0.0",
-  "description": "Manager which stores elements under auto-incremented index and calls the destroy method when removing them.",
+  "description": "Set of collections with remove and add callback.",
   "main": "index.js",
   "scripts": {
     "test": "karma start",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "jasmine-core": "^2.5.2",
     "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-systemjs": "^0.14.0",

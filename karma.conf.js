@@ -13,8 +13,10 @@ module.exports = function(config) {
     files: [
       {pattern: 'node_modules/lodash/**/*.js  ',              included: false, watched: false},
 
-      {pattern: 'src/test/js/*.ts'},
-      {pattern: 'src/main/js/*.ts',                           included: false}
+      {pattern: 'src/main/index.ts'},
+      {pattern: 'src/main/js/*.ts',                           included: false},
+
+      {pattern: 'src/test/js/*.ts'}
     ],
 
     systemjs: {
@@ -58,7 +60,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['PhantomJS'/*, 'Chrome'*/], // Chrome gives more information when error happens
 
 
     // Continuous Integration mode

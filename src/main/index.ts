@@ -1,2 +1,2 @@
-export * from './js/ElementAddRemoveManager';
-import './js/ElementAddRemoveManager';
+export * from './js/Collection';
+export * from './js/RemoveCallbackCollection';
