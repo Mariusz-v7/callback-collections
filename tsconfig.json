@@ -10,6 +10,7 @@
         "suppressImplicitAnyIndexErrors": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
+        "declaration": true,
 
         "outDir": "dist",
         "baseUrl": ".",
