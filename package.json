@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Set of collections with remove and add callback.",
   "main": "dist/main/index.js",
+  "jsnext:main": "dist/main/index.js",
   "typings": "dist/main/index",
   "scripts": {
     "test": "karma start",
